@@ -1,7 +1,7 @@
 import pygame
 import random
 
-# Inicializar Pygame
+# Inicializar Pygami
 pygame.init()
 
 # Dimensiones de la pantalla
