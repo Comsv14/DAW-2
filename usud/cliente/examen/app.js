@@ -106,4 +106,4 @@ document.getElementById("Modificar").addEventListener("click", () => {
     modificarPersona(nombre, nuevoPeso, nuevaAltura); // Llamar a la función para modificar
 });
 
-document.getElementById("Calcular").addEventListener("click", mostrarIMC); // Conectar botón de cálculo
+document.getElementById("Calcular").addEventListener("click", mostrarIMC); // Conectar botón de cálculoo
