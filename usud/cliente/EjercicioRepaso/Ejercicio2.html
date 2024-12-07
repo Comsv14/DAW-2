@@ -153,11 +153,11 @@
             lista.innerHTML = "";
             alumnos.forEach(alumno => {
                 const linea = document.createElement("li");
-                const linea2 = document.createElement("li");
+                const linea2 = document.createElement("ul");
                 linea.textContent = `Alumno: ${alumno.nombre}`;
                 linea2.textContent= `Apellidos: ${alumno.apellidos}`;
-                lista.appendChild(item);
-                lista.appendChild(item2);
+                lista.appendChild(linea);
+                lista.appendChild(linea2);
             });
         }
 
