@@ -49,7 +49,7 @@
         }
 
         function agregar() {
-            event.preventDefault(); // Previene que el formulario recargue la página
+            event.preventDefault(); 
             const nombre = document.getElementById("nombre").value.trim();
             const precio = parseFloat(document.getElementById("precio").value);
             const seccion = document.getElementById("seccion").value.trim();
@@ -68,7 +68,7 @@
         }
 
         function mostrarProductos() {
-            event.preventDefault(); // Previene que el formulario recargue la página
+            event.preventDefault(); 
             const listaProductos = document.getElementById("listaProductos");
             listaProductos.innerHTML = "";
             const titulo =document.createElement("h1");
